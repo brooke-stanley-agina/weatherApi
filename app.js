@@ -17,18 +17,3 @@ weather.getWeather()
 
 }
 
-// function weatherBalloon( cityID ) {
-//     var key = '6ea4de1713e242df21e301436d76c584';
-//     fetch('https://api.openweathermap.org/data/2.5/weather?id=' + cityID+ '&appid=' + key)  
-//     .then(function(resp) { return resp.json() }) // Convert data to json
-//     .then(function(data) {
-//       console.log(data);
-//     })
-//     .catch(function() {
-//       // catch any errors
-//     });
-//   }
-  
-//   window.onload = function() {
-//     weatherBallon( 6167865 );
-//   }
