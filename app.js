@@ -1,5 +1,5 @@
-
-const weather = new Weather('Protaras');
+//init weather
+const weather = new Weather('Protaras'); //place a city
 
 document.addEventListener('DOMContentLoaded', getWeather)
 
